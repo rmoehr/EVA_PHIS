@@ -138,4 +138,4 @@ returnType_en runVoter_B(sensor_t sensorReadings[], int32_t* votedValue_B) {
 returnType_en runStage2Voter(bool distanceIsSafe_A, bool distanceIsSafe_B, bool* enterSafeState) {
     *enterSafeState = !distanceIsSafe_A;
     return E_OK;
-}// test
+}
